@@ -1,0 +1,9 @@
+pred{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 100px;
+}
+img{
+    padding: 20px;
+}
