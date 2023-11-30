@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Donpoligraf";
+    src: url("/Project_main/media/Donpoligrafbum-Bold.woff") format('woff');
+}
+
+.dev, .name{
+    font-family: "Donpoligraf";
+}
+
+.name{
+    font-family: "Donpoligraf";
+    font-size: 38px;
+    display: block;
+}
+
+.section{
+    display: flex;
+}
+.img{
+    display: block;
+}
