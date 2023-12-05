@@ -14,7 +14,7 @@ h2{
     color: blue;
 }
 
-.phenomenon-description{
+.phenomenon-description p{
     margin-left: 20px;
     color: gray;
 }
@@ -22,4 +22,8 @@ h2{
 .phenomenon-highlight{
     color: yellow;
     font-weight: bold;
+}
+
+.phenomenon h2{
+    color: blue;
 }
