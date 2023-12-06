@@ -1,0 +1,80 @@
+
+h1{
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Arial', sans-serif;
+}
+.wildlife-list{
+    list-style:none; 
+    margin: 0; 
+    padding: 0;
+}
+
+li{
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+    width: 400px;
+    border: 2px solid black;
+    padding: 15px 220px 15px 15px;
+    margin: 10px;
+}
+
+.wildlife-description{
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Arial', sans-serif;
+}
+
+.wildlife-image{
+    height: 200px;
+    background-image: url(https://omsk.oboitd.ru/images/goods/big/20200120021434_Raznye_zhivotnye_3-155.jpg);
+    background-size: 400px;
+    background-repeat: space;
+}
+
+
+.lion{
+    background-image: url(https://rosspectr.ru/wp-content/uploads/9/2/5/9251a6dbacafeb352186915a0332c4f2.jpeg);
+    background-size: 200px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+
+.tig{
+    background-image: url(https://new-year-party.ru/wp-content/uploads/2021/02/tigr-28-1536x960.jpg);
+    background-size: 200px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+
+.ele{
+    background-image: url(https://www.rabstol.net/uploads/gallery/main/240/rabstol_net_elephant_04.jpg);
+    background-size: 200px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+
+.gep{
+    background-image: url(https://w.forfun.com/fetch/09/0957972ad698ab4c4c18ccacb0735d8e.jpeg);
+    background-size: 200px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+
+.zeb{
+    background-image: url(https://celes.club/uploads/posts/2021-11/1637320685_47-celes-club-p-zebra-zhivotnie-krasivo-foto-51.jpg);
+    background-size: 200px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+
+.gir{
+    background-image: url(http://kartinkof.club/uploads/posts/2022-09/1662140679_11-kartinkof-club-p-novie-i-krasivie-kartinki-zhiraf-12.jpg);
+    background-size: 200px;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}

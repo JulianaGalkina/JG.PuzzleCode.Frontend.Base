@@ -99,11 +99,14 @@ body{
     font-size: 30px;
     color: #9e040e;
     background-color: white;
-    width: 350px;
+    width: 500px;
     padding: 10px;
-    padding-left: 20px;
+    padding-left: 50px;
+    padding-left: 50px;
     border-radius: 50px;
     border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
@@ -113,6 +116,10 @@ footer{
     text-align: center;
     vertical-align: middle;
     margin-top: 20px;
+    background-image: url(https://sun9-64.userapi.com/impg/GcYjv8iUO8BE9_PfGsmRsBC2XXngTePs_vBdKw/etcfuZ2_Z2A.jpg?size=1280x1280&quality=95&sign=12056b04e554adf427e2a5a82c15354c&type=album);
+    background-repeat: repeat-x;
+    background-size: 100px;
+    opacity: 0.8;
 }
 
 footer p{
@@ -121,5 +128,6 @@ footer p{
     font-family: 'Teko';
     font-size: 50px;
     font-weight: 700;
-    color: rgb(37, 37, 37);
+    color: rgb(0, 0, 0);
+    opacity: 1;
 }
