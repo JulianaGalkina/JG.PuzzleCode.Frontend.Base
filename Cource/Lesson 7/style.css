@@ -1,0 +1,17 @@
+h1, p, ul, div, button, input, a, li{
+    margin: 0%;
+}
+
+li:nth-child(2n){
+    background-color: red;
+    color: greenyellow;
+}
+
+li::marker{
+    font-size: 25px;
+    color: black;
+}
+
+input::placeholder{
+    color: blue;
+}
