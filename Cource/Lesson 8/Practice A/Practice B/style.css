@@ -1,0 +1,38 @@
+img{
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.fi, .six, .sev{
+    z-index: 2;
+    position: relative;
+    margin-top: -40px;
+}
+
+.six{
+    z-index: 0;
+    position: relative;
+    margin-top: -40px;
+}
+
+.ei{
+    z-index: 2;
+    position: relative;
+    margin-top: -40px;
+}
+
+.ni{
+    z-index: 1;
+    position: relative;
+    margin-top: -40px;
+}
+
+.ten{
+    z-index: 0;
+    position: relative;
+    margin-top: -40px;
+}
