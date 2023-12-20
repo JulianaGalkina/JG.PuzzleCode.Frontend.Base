@@ -51,6 +51,7 @@ section{
 }
 
 .cover button{
+    cursor: pointer;
     margin-top: 30px;
     border-radius: 20px;
     border: none;
@@ -60,7 +61,6 @@ section{
     align-items: flex-start;
     gap: 10px;
     color: #1A1A1A;
-
     font-family: Livvic;
     font-size: 15px;
     font-style: normal;
@@ -68,6 +68,22 @@ section{
     line-height: normal;
     text-transform: uppercase;
 }
+
+.cover button:hover{
+    background: #F6D086;
+}
+
+.cover button:focus{
+    background: #C58D21
+}
+
+.cover button:active{
+    background: #A16C06;
+    color: #FFF;
+}
+
+
+
 
 .food{
     padding-top: 78px;
@@ -99,6 +115,7 @@ section{
 }
 
 .con_f{
+    cursor: pointer;
     border-radius: 15px;
     border: none;
     width: 183px;
@@ -116,6 +133,21 @@ section{
     font-weight: 600;
     line-height: normal;
 }
+
+.con_f:hover{
+    background: #F7C35F;
+    color: #000;
+}
+
+.con_f:focus{
+    background: #6A8A6D;
+}
+
+.con_f:active{
+    background: #263C28;
+}
+
+
 
 .con_f svg{
     margin-bottom: 10px;
