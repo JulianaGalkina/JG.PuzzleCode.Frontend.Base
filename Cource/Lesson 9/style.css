@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Livvic;
+}
+
+section{
+    padding-left: 240px;
+    padding-right: 240px;
+
+}
+
+.cover{
+    padding-top: 268px;
+    padding-bottom: 234px;
+    background-image: url("images/back-1.png");
+    background-repeat: no-repeat;
+    overflow: visible;
+    width: auto;
+    height: auto;
+}
+
+.cover p{
+    
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 120% */
+}
+
+.cover h2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dis{
+    margin-top: 10px;
+    width: 730px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cover button{
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+    background: #F7C35F;
+    display: flex;
+    padding: 25px 50px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #1A1A1A;
+
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.food{
+    padding-top: 78px;
+    background-color: #334B35;
+    height: 558px;
+    text-align: center;
+}
+
+.food h3{
+    padding-top: 20px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    text-transform: uppercase;
+}
+
+.food h2{
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+
+.con_f{
+    border-radius: 15px;
+    border: none;
+    width: 183px;
+    height: 144px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 33px;
+    flex-shrink: 0;
+    background: #445945;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.con_f svg{
+    margin-bottom: 10px;
+}
+
+.food_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    column-gap: 10px ;
+}
+
+.mini-cover{
+    padding-top: 284px;
+    padding-bottom: 284px;
+    background-image: url("images/back-2.png");
+    background-repeat: no-repeat;
+    overflow: visible;
+    width: auto;
+    height: auto;
+}
+
+.mini-cover h2{
+    width: 609px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.projects{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    background-image: url("images/back-3.png");
+    background-repeat: no-repeat;
+    overflow: visible;
+    width: auto;
+    height: auto;
+}
+
+.projects p{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    text-transform: uppercase;
+}
+
+.projects h2{
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card{
+    margin-top: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 318px;
+    height: 350px;
+
+}
+
+.card svg{
+    vertical-align: bottom;
+    margin-right: 5px;
+    position: relative;
+    z-index: 1px;
+    margin-bottom: 0;
+    margin-top: 320px;
+
+}
+
+.card p{
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.card .name-card{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.card div{
+    display: block;
+    position: relative;
+    z-index: 1px;
+    margin-bottom: 0;
+    margin-top: 300px;
+
+}
+
+.main-c{
+    border-radius: 50px;
+    background: #F7C35F;
+    width: 20px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.circle{
+    border-radius: 50px;
+    background: #CCC;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.men{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
