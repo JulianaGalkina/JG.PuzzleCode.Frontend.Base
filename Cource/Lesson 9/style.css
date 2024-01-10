@@ -4,23 +4,31 @@
     font-family: Livvic;
 }
 
-section, header, footer{
-    padding-left: 240px;
-    padding-right: 240px;
+section, header{
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    overflow: hidden;
 }
 
 .cover{
-    padding-top: 268px;
-    padding-bottom: 234px;
+    padding-right: 0px;
+    padding-top: 14%;
+    padding-bottom: 10%;
     background-image: url("images/back-1.png");
     background-repeat: no-repeat;
     overflow: visible;
-    width: auto;
-    height: auto;
+    max-width: auto;
+    max-height: 954px;
 }
 
-.cover p{
-    
+
+.cover img{
+        width: 100%;
+        max-width: 639px;;
+}
+
+.or{
+    width: 60%;
     color: #FFF;
     font-family: Livvic;
     font-size: 25px;
@@ -30,17 +38,20 @@ section, header, footer{
 }
 
 .cover h2{
+    width: 100%;
     color: #FFF;
     font-family: Livvic;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height:60px;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 .dis{
-    margin-top: 10px;
-    width: 730px;
+    width: 100%;
+    margin-top: 5px;
     color: #FFF;
     font-family: Livvic;
     font-size: 20px;
@@ -102,9 +113,10 @@ footer button{
 
 
 .food{
-    padding-top: 78px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     background-color: #334B35;
-    height: 558px;
+    height: auto;
     text-align: center;
 }
 
@@ -117,6 +129,7 @@ footer button{
     font-weight: 400;
     line-height: 30px; /* 150% */
     text-transform: uppercase;
+    
 }
 
 .food h2{
@@ -148,6 +161,7 @@ footer button{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    overflow: hidden;
 }
 
 .con_f:hover{
@@ -196,6 +210,7 @@ footer button{
 }
 
 .projects{
+    overflow: hidden;
     text-align: center;
     padding-top: 130px;
     padding-bottom: 95px;
@@ -232,6 +247,7 @@ footer button{
 }
 
 .card{
+    overflow: hidden;
     transition: 0.3s;
     cursor: pointer;
     margin-top: 100px;
@@ -334,6 +350,7 @@ footer button{
 }
 
 header{
+    padding-right: 12.5%;
     height: 110px;
     background-color: #334B35;
     display: flex;
@@ -366,6 +383,7 @@ nav div:hover #undl{
 }
 
 footer{
+    padding-right: 12.5%;
     background: #263C28;
     height: 70px;
     color: #FFF;
