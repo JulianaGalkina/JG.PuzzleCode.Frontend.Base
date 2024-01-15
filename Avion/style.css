@@ -1,0 +1,249 @@
+*{
+    font-family: Roboto;
+    text-decoration: none;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hr-line {
+	margin: 0px 0;
+	border: none;
+	border-top: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.head-menu{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.head-menu h1{
+    margin: 0%;
+    color: #22202E;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+}
+
+nav a{
+    margin: 20px;
+    color: #726E8D;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#but{
+    width: 16px;
+    height: 16px;
+}
+
+.head-menu div a{
+    margin-left: 16px;
+}
+
+main{
+    width: 100%;
+}
+
+section{
+    width: 89%;
+}
+
+.hero{
+    position: relative;
+    box-sizing: content-box;
+    text-align:left;
+    width: 89%;
+    height: 584px;
+    margin: 60px 0;
+    background: url("foto/Right\ Image.png"), #2A254B 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.hero div{
+    width: 30%;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140%; /* 44.8px */
+    position: absolute; 
+    top: 60px;
+    left: 60px;
+}
+
+.hero h3{
+    font-weight: 300;
+    font-family: Roboto;
+}
+
+.hero p{
+    position: absolute; 
+    bottom: 60px;
+    left: 60px;
+}
+
+.hero button{
+    cursor: pointer;
+    margin-top: 40px;
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-style: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;    
+    background: rgba(249, 249, 249, 0.15);
+}
+
+.hero p{
+    width: 40%;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140%; /* 28px */
+}
+
+.features h3{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 44.8px */
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.Fun{
+    display: flex;
+    justify-content: space-between;
+}
+
+.con{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 266px;
+    margin-right: 60px;
+
+}
+
+.con h6{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 28px */
+}
+
+.con p{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    text-align: left;
+}
+.features{
+    margin-bottom: 20px;
+}
+
+.grid-pr{
+    display: grid;
+    grid-template-columns: 305px 305px 305px 305px;
+    column-gap: 100px;
+    row-gap: 40px;
+}
+
+.container-for-pr img{
+    width: 305px;
+    height: 375px;
+    margin-bottom: 24px;
+}
+
+.container-for-pr .ig{
+    width: 710px;
+    height: 375px;
+    margin-bottom: 24px;
+}
+
+.container-for-pr{
+    text-align: left;
+}
+
+.container-for-pr h3{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    margin-bottom: 8px;
+}
+
+.container-for-pr p{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+.prod h2{
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 44.8px */
+    margin-bottom: 27px;
+    text-align: left;
+}
+
+.prod{
+    padding: 80px 0;
+}
+
+.prod button{
+    cursor: pointer;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-style: none;
+    color: #2A254B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;    
+    background: var(--Light-Grey, #F9F9F9);
+    margin-top: 35px;
+}

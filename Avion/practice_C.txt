@@ -1,0 +1,2 @@
+Flexbox - навигация, future block, footer
+Grid - товары, footer
