@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avion</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="stylemob.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="font-Roboto\stylesheet.css">
 </head>
 <body>
     <center>
         <header>
-            <div class="head-menu">
-                <a href="#" id="#but" aria-label="Search"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path d="M14.5001 13.7929L10.7241 10.0169C11.6314 8.92758 12.0839 7.53038 11.9873 6.11596C11.8908 4.70153 11.2526 3.37879 10.2057 2.42288C9.15867 1.46698 7.78347 0.951515 6.36612 0.983723C4.94877 1.01593 3.5984 1.59333 2.59593 2.59581C1.59345 3.59828 1.01605 4.94865 0.983845 6.366C0.951637 7.78335 1.4671 9.15855 2.423 10.2055C3.37891 11.2525 4.70165 11.8907 6.11608 11.9872C7.5305 12.0838 8.9277 11.6313 10.017 10.7239L13.7931 14.5L14.5001 13.7929ZM2.00012 6.5C2.00012 5.60998 2.26404 4.73995 2.75851 3.99993C3.25297 3.25991 3.95578 2.68313 4.77804 2.34254C5.60031 2.00194 6.50511 1.91283 7.37802 2.08646C8.25094 2.2601 9.05276 2.68868 9.6821 3.31802C10.3114 3.94735 10.74 4.74918 10.9137 5.62209C11.0873 6.495 10.9982 7.3998 10.6576 8.22207C10.317 9.04434 9.7402 9.74714 9.00018 10.2416C8.26016 10.7361 7.39013 11 6.50012 11C5.30705 10.9987 4.16323 10.5241 3.3196 9.68052C2.47597 8.83689 2.00144 7.69306 2.00012 6.5Z" fill="#2A254B"/>
-                    </svg>
-                </a>
                 <h1 aria-label="Avion">Avion</h1>
+                <nav>
+                    <a href="#" aria-label="Plant pots">Plant pots</a>
+                    <a href="#" aria-label="Ceramics">Ceramics</a>
+                    <a href="#" aria-label="Tables">Tables</a>
+                    <a href="#" aria-label="Chairs">Chairs</a>
+                    <a href="#" aria-label="Crockey">Crockey</a>
+                    <a href="#" aria-label="Tableware">Tableware</a>
+                    <a href="#" aria-label="Cutlery">Cutlery</a>
+                </nav>
                 <div>
+                    <a href="#" id="#but" aria-label="Search"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                        <path d="M14.5001 13.7929L10.7241 10.0169C11.6314 8.92758 12.0839 7.53038 11.9873 6.11596C11.8908 4.70153 11.2526 3.37879 10.2057 2.42288C9.15867 1.46698 7.78347 0.951515 6.36612 0.983723C4.94877 1.01593 3.5984 1.59333 2.59593 2.59581C1.59345 3.59828 1.01605 4.94865 0.983845 6.366C0.951637 7.78335 1.4671 9.15855 2.423 10.2055C3.37891 11.2525 4.70165 11.8907 6.11608 11.9872C7.5305 12.0838 8.9277 11.6313 10.017 10.7239L13.7931 14.5L14.5001 13.7929ZM2.00012 6.5C2.00012 5.60998 2.26404 4.73995 2.75851 3.99993C3.25297 3.25991 3.95578 2.68313 4.77804 2.34254C5.60031 2.00194 6.50511 1.91283 7.37802 2.08646C8.25094 2.2601 9.05276 2.68868 9.6821 3.31802C10.3114 3.94735 10.74 4.74918 10.9137 5.62209C11.0873 6.495 10.9982 7.3998 10.6576 8.22207C10.317 9.04434 9.7402 9.74714 9.00018 10.2416C8.26016 10.7361 7.39013 11 6.50012 11C5.30705 10.9987 4.16323 10.5241 3.3196 9.68052C2.47597 8.83689 2.00144 7.69306 2.00012 6.5Z" fill="#2A254B"/>
+                        </svg>
+                    </a>
                     <a href="#" id="#but" aria-label="Shopping cart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                         <rect width="16" height="16" fill="white" style="mix-blend-mode:multiply"/>
                         <path d="M5 15C5.55228 15 6 14.5523 6 14C6 13.4477 5.55228 13 5 13C4.44772 13 4 13.4477 4 14C4 14.5523 4.44772 15 5 15Z" fill="#2A254B"/>
@@ -31,34 +40,88 @@
                         <path d="M8 1C6.61553 1 5.26216 1.41054 4.11101 2.17971C2.95987 2.94888 2.06266 4.04213 1.53285 5.32122C1.00303 6.6003 0.86441 8.00776 1.13451 9.36563C1.4046 10.7235 2.07129 11.9708 3.05026 12.9497C4.02922 13.9287 5.2765 14.5954 6.63437 14.8655C7.99224 15.1356 9.3997 14.997 10.6788 14.4672C11.9579 13.9373 13.0511 13.0401 13.8203 11.889C14.5895 10.7378 15 9.38447 15 8C14.9979 6.14413 14.2597 4.36486 12.9474 3.05256C11.6351 1.74026 9.85588 1.00209 8 1ZM5 13.1882V12.5C5.00044 12.1023 5.15862 11.721 5.43983 11.4398C5.72104 11.1586 6.10231 11.0004 6.5 11H9.5C9.89769 11.0004 10.279 11.1586 10.5602 11.4398C10.8414 11.721 10.9996 12.1023 11 12.5V13.1882C10.0896 13.7199 9.05426 14 8 14C6.94574 14 5.91042 13.7199 5 13.1882ZM11.9963 12.4629C11.9863 11.807 11.7191 11.1813 11.2521 10.7206C10.7852 10.2599 10.156 10.0011 9.5 10H6.5C5.84405 10.0011 5.2148 10.2599 4.74786 10.7206C4.28093 11.1813 4.01369 11.807 4.00375 12.4629C3.09703 11.6533 2.45762 10.5873 2.17017 9.40623C1.88272 8.22513 1.9608 6.98457 2.39407 5.84883C2.82734 4.71309 3.59536 3.73573 4.59644 3.04618C5.59751 2.35663 6.78442 1.98741 8 1.98741C9.21558 1.98741 10.4025 2.35663 11.4036 3.04618C12.4046 3.73573 13.1727 4.71309 13.6059 5.84883C14.0392 6.98457 14.1173 8.22513 13.8298 9.40623C13.5424 10.5873 12.903 11.6533 11.9963 12.4629Z" fill="#2A254B"/>
                         </svg>
                     </a>
+                    <a href="#" id="#but" aria-label="User avatar" class="menuu"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <rect width="16" height="16" fill="white" style="mix-blend-mode:multiply"/>
+                        <path d="M14 3H2V4H14V3Z" fill="#2A254B"/>
+                        <path d="M14 12H2V13H14V12Z" fill="#2A254B"/>
+                        <path d="M14 6H2V7H14V6Z" fill="#2A254B"/>
+                        <path d="M14 9H2V10H14V9Z" fill="#2A254B"/>
+                      </svg>
+                    </a>
                 </div>
-            </div>
-            <hr class="hr-line">
-            <nav>
-                <a href="#" aria-label="Plant pots">Plant pots</a>
-                <a href="#" aria-label="Ceramics">Ceramics</a>
-                <a href="#" aria-label="Tables">Tables</a>
-                <a href="#" aria-label="Chairs">Chairs</a>
-                <a href="#" aria-label="Crockey">Crockey</a>
-                <a href="#" aria-label="Tableware">Tableware</a>
-                <a href="#" aria-label="Cutlery">Cutlery</a>
-            </nav>
         </header>
         <main>
-            <section class="hero">
-                <div><h3 aria-label=" The furniture brand for the future, with timeless designs">
-                    The furniture brand for the future, with timeless designs
-                </h3>
+            <section  style="background: var(--Light-Grey, #F9F9F9); width:100%">
+                <div class="product">
+                    <img src="foto/Product Image.png">
+                    <div class="discrip-pr">
+                        <h1>The Dandy Chair</h1>
+                        <h3>£250</h3>
+                        <hr class="line">
+                        <h5>Product description</h5>
+                        <p class="dis">A timeless design, with premium materials features as one of our most popular and iconic pieces. The dandy chair is perfect for any stylish living space with beech legs and lambskin leather upholstery.</p>
+                        <p class="dim">Dimensions</p>
+                        <div class="tab">
+                            <div class="par">
+                                <p class="name">Height</p>
+                                <p class="len">110cm</p>
+                            </div>
+                            <hr class="ver-hr">
+                            <div class="par">
+                                <p class="name">Width</p>
+                                <p class="len">75cm</p>
+                            </div>
+                            <hr class="ver-hr">
+                            <div class="par">
+                                <p class="name">Depth</p>
+                                <p class="len">50cm</p>
+                            </div>
+                        </div>
+                        <p class="qu">Quantitity</p>
+                        <div class="button-count">
+                            <p>-</p>
+                            <p>1</p>
+                            <p>+</p>
+                        </div>
+                        <div class="buttons_pr">
+                            <button class="b1">Add to cart</button>
+                            <button class="b2">Save to favorites</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="prod">
+                <h2>You might also love these</h2>
+                <div class="grid-pr">
+                    <div class="container-for-pr" style="grid-column: 1/ span 5;" aria-label="Image Sofa">
+                        <img class="ig" src="foto/Large.png">
+                        <h3>The Poplar suede sofa</h3>
+                        <p>£980</p>
+                    </div>
+                    <div class="container-for-pr" style="grid-column: 7/ span 3;" aria-label="Image The dandy chair">
+                        <img src="foto/Right Image.png">
+                        <h3>The Dandy chair</h3>
+                        <p>£250</p>
+                    </div>
+                    <div class="container-for-pr"style="grid-column: 10/ span 3;" aria-label="Image The dandy chair">
+                        <img src="foto/ch.png">
+                        <h3>The Dandy chair</h3>
+                        <p>£250</p>
+                    </div>
+                    <div class="container-for-pr-mob"  aria-label="Image The Lucy Lamp">
+                        <img src="foto/lucy.png">
+                        <h3>The Lucy Lamp</h3>
+                        <p>£399</p>
+                    </div>
+                    <div class="container-for-pr-mob" aria-label="Image Rustic Vase Set">
+                        <img src="foto/Photo.png">
+                        <h3>Rustic Vase Set</h3>
+                        <p>£155</p>
+                    </div>
+                </div>
                 <button aria-label="View collection">
-                    View collection
-                </button></div>
-                <p aria-label="A new era in eco friendly furniture with Avelon, the French luxury retail brand
-                with nice fonts, tasteful colors and a beautiful way to display things digitally 
-                using modern web technologies.">
-                    A new era in eco friendly furniture with Avelon, the French luxury retail brand
-                    with nice fonts, tasteful colors and a beautiful way to display things digitally 
-                    using modern web technologies.
-                </p>
+                    See collection
+                </button>
             </section>
             <section class="features">
                 <h3>What makes our brand different</h3>
@@ -103,78 +166,20 @@
                     </div>
                 </div>
             </section>
-            <section class="prod">
-                <h2>New ceramics</h2>
-                <div class="grid-pr" >
-                    <div class="container-for-pr" style="grid-column: 1/ span 3;" aria-label="Image the dandy chair">
-                        <img src="foto/Right Image.png" loading="lazy">
-                        <h3>The Dandy chair</h3>
-                        <p>£250</p>
-                    </div>
-                    <div class="container-for-pr" style="grid-column: 4/ span 3;" aria-label="Image Rustic Vase Set">
-                        <img src="foto/Photo.png" loading="lazy">
-                        <h3>Rustic Vase Set</h3>
-                        <p>£155</p>
-                    </div>
-                    <div class="container-for-pr" style="grid-column: 7/ span 3;" aria-label="Image The Silky Vase">
-                        <img src="foto/silky.png" loading="lazy">
-                        <h3>The Silky Vase</h3>
-                        <p>£125</p>
-                    </div>
-                    <div class="container-for-pr" style="grid-column: 10/ span 3;" aria-label="Image The Lucy Lamp">
-                        <img src="foto/lucy.png" loading="lazy">
-                        <h3>The Lucy Lamp</h3>
-                        <p>£399</p>
-                    </div>
-                </div>
-                <button aria-label="View collection">
-                    View collection
-                </button>
-            </section>
-            <section class="prod">
-                <h2>New ceramics</h2>
-                <div class="grid-pr">
-                    <div class="container-for-pr" style="grid-column: 1/ span 5;" aria-label="Image Sofa">
-                        <img class="ig" src="foto/Large.png" loading="lazy">
-                        <h3>The Poplar suede sofa</h3>
-                        <p>£980</p>
-                    </div>
-                    <div class="container-for-pr" style="grid-column: 7/ span 3;" aria-label="Image The dandy chair">
-                        <img src="foto/Right Image.png" loading="lazy">
-                        <h3>The Dandy chair</h3>
-                        <p>£250</p>
-                    </div>
-                    <div class="container-for-pr"style="grid-column: 10/ span 3;" aria-label="Image The dandy chair">
-                        <img src="foto/ch.png" loading="lazy">
-                        <h3>The Dandy chair</h3>
-                        <p>£250</p>
-                    </div>
-                </div>
-                <button aria-label="View collection">
-                    View collection
-                </button>
-            </section>
-            <section style="background: var(--Light-Grey, #F9F9F9);width:100%; padding-top: 60px; padding-bottom: 60px;"><div class="email-sing">
-                <div><h5>
-                    Join the club and get the benefits
-                </h5>
-                <p>
-                    Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more
-                </p></div>
-                <form method="get">
-                    <input name="one-libe" placeholder="your@email.com" type="email" aria-placeholder="Write your email">
-                    <button type="submit" aria-label="Sing up">Sign up</button>
-                  </form>
-            </div></section>
-            <section class="brend">
-                <div class="disc_b">
-                    <h5>From a studio in London to a global brand with
-                        over 400 outlets</h5>
-                    <p>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. <br><br>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
-                    <button aria-label="Get in touch">Get in touch</button>
-                </div>
-                <img src="foto/Image.png" aria-hidden="true" loading="lazy">
-            </section>
+            <section style="width:100%;" class="add"> 
+                <img src="foto/Image2.png"> 
+                <div class="email-sing">
+                    <div><h5>
+                        Join the club and get the benefits
+                    </h5>
+                    <p>
+                        Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more
+                    </p></div>
+                    <form method="get">
+                        <input name="one-libe" placeholder="your@email.com" type="email" aria-placeholder="Write your email">
+                        <button type="submit" aria-label="Sing up">Sign up</button>
+                    </form>
+                </div></section>
         </main>
         <footer style="background:#2A254B;">
             <div class="grid-footer">
